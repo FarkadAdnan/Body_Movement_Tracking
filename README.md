@@ -1,3 +1,4 @@
+![Capture](https://user-images.githubusercontent.com/35774039/124921133-c2567580-e000-11eb-8b62-edf7e0576e60.JPG)
 # Body_Movement_Tracking
 #فرقد_عدنان #farkadadnan #farkad_adnan
 
@@ -9,6 +10,20 @@ Authors: Farqad Adnan
 Contact: farkad.hpfa95@gmail.com
 
 This software was developed using Microsoft Visual C# 2010 on a Windows 10 64-bit machine.
+System results:![Capture](https://user-images.githubusercontent.com/35774039/124921264-e2863480-e000-11eb-82f2-2c5ba7db82a5.JPG)
+The image in process is shown in the top left panel, while the corresponding motion silhouette is shown at the top right. The lower left panel shows an animated graph of the movement indicator over time. The program's controls, which allow the user to select the image to be processed, whether to show visualizations, and where to save the output files, are located in the lower right panel.
+
+![Captures](https://user-images.githubusercontent.com/35774039/124921357-faf64f00-e000-11eb-9851-d0e972276bc6.JPG)
+Sample output from the motion tracking algorithm.
+Figure ![asasf](https://user-images.githubusercontent.com/35774039/124921426-0ea1b580-e001-11eb-8b85-2cf763c5aa0d.JPG)
+ shows a sample output from the motion tracking algorithm. The panels on the left show single frames taken from the image sequence, and the panels on the right show the silhouettes of the corresponding motion. Pixels that have been shifted (that is, the places where movement occurred in the image frame) appear in white, while pixels that have not been shifted appear in black. In the bottom panel, there is a noticeable movement of the face and body. By contrast, in the middle panel, only some movement occurred, and in the upper panel, the body is still except for the eyes. As can be seen, the algorithm correctly filters background noise such as fixed pixels and light fluctuation, and detects both small movement such as eye blinks when the head is still (top panel), medium movement such as slight shifts in position (middle panel), and noticeable movements such as tilting Head and gestures (bottom panel).
+On the left are single frames extracted from the image sequence, while the panels on the right display the silhouettes of the corresponding motion. Displaced pixels (that is, the places where movement occurred in the image frame) appear white; Pixels that are not shifted appear black.
+
+![asasf](https://user-images.githubusercontent.com/35774039/124921485-1feac200-e001-11eb-92f5-e2e69e566acf.JPG)
+
+Figure shows a time slice with 500 steps of the participant's time series. Video was recorded at 30 frames per second. The histogram displays movement in individual frames as a percentage of pixels per frame changing. The lower graph displays the estimated motion, which is the absolute difference in the ratio of pixels changing across adjacent frames. The periods of stable movement are reflected in the upper chart by small spikes in the lower chart. Small bumps indicate subtle changes in movement across adjacent tires. Large spikes in the lower graph indicate larger changes in movement across adjacent frames, reflecting sharp increases or decreases in the amount of movement. For example, in the upper chart there is a stable movement until approximately frame 30, at which point there is a sharp decrease in the amount of movement. This is reflected in the lower chart as a series of very small rallies during the period of stable movement, followed by a large rise when the movement suddenly decreases.
+
+
 
 System requirements
 The program was tested on the 64-bit version of Windows 10. It should work on Windows 10 32-bit. It may work on older or newer Windows devices, but this has not been tested.
