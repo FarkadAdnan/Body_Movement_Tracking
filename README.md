@@ -1,4 +1,3 @@
-![Capture](https://user-images.githubusercontent.com/35774039/124921133-c2567580-e000-11eb-8b62-edf7e0576e60.JPG)
 # Body_Movement_Tracking
 #فرقد_عدنان #farkadadnan #farkad_adnan
 
