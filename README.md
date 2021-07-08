@@ -34,4 +34,4 @@ bi-threshold
 BINARY_THRESHOLD: The default value is 30. After the silhouette mask is created from the latest video frame, the silhouette is selected to give a binary image. This value is the threshold.
 Haar Object Detection Settings
 Scale factor: default 1.1. How quickly the object detection scale increases with each pass over the image. Higher means faster, fewer passes, and you might miss things. Less means slower and more passes. The default OpenCv is 1.1 (10% increment on each pass).
-MIN NEIGHBORS: Default 2. Slash level to eliminate or keep groups of rectangles (found objects) based on the number of initial finds in the group. Combines groups greater than this value and discards groups with less value. If the detector misses many things,
+MIN NEIGHBORS: Default 2. Slash level to eliminate or keep groups of rectangles (found objects) based on the number of initial finds in the group. Combines groups greater than this value and discards groups with less value. If the detector misses many things.
