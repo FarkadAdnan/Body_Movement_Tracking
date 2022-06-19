@@ -1,5 +1,8 @@
 # Body_Movement_Tracking
 #فرقد_عدنان #farkadadnan #farkad_adnan
+* facebook : https://www.facebook.com/profile.php?id=100002145048612
+* instagram:  https://www.instagram.com/farkadadnan/
+* linkedin : https://www.linkedin.com/in/farkad-adnan-499972121/
 
 The   is a camera-based body movement tracking system that uses motion silhouettes to estimate the amount a person moves from a video of the person engaged in a task.
 A software based system for tracking movement over time
